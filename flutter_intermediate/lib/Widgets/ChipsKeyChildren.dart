@@ -11,7 +11,7 @@ class MyApp extends StatefulWidget{
 
 class _State extends State<MyApp>{
   int _counter=0;
-  List<Widget> _list=new List<Widget>();
+  List<Widget> _list=[];
 
   @override
   void initState() {
